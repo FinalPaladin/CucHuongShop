@@ -10,7 +10,8 @@ namespace CucHuongShop.Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Zinh = "alo";
+            ViewBag.Title = "Home Page";
+
             return View();
         }
     }
